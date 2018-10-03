@@ -7,11 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: 
+# Exercise: 4
 # Soource: Python Programming
-# Chapter: 
+# Chapter: 2
 #
 # Program Description
+# Convert temperature 5 times
 
 def main():
     for i in range(5):

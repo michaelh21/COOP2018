@@ -7,11 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: Write a program to calculate the volume and surface area of a
-# sphere from its radius, given as input. Here are some formulas that might be useful.
+# Exercise: 1
 # Soource: Python Programming
 # Chapter: 3
 # Program Description
+# Write a program to calculate the volume and surface area of a
+# sphere from its radius, given as input. Here are some formulas that might be useful.
 
 def main():
     print("This program calculates the volume and surface area of a sphere from its radius")

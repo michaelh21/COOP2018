@@ -7,12 +7,13 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: Write a program that computes the molecular weight of a carbohydrate based on
+# Exercise: 3
 # the number of hydrogen, carbon, and oxygen atoms in the molecule
 # Source: Python Programming
 # Chapter: 3
 #
 # Program Description
+# Write a program that computes the molecular weight of a carbohydrate based on
 
 def main():
     print("This program computers the emolecular weight of a carbohydrate")

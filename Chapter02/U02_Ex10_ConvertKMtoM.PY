@@ -7,16 +7,17 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: 
+# Exercise: 10
 # Soource: Python Programming
-# Chapter: 
+# Chapter: 2
 #
 # Program Description
+# Convert Kilometers into miles
 
 def KMM():
-    print("This program converts distance from Kilometers to Fahrenheit")
+    print("This program converts distance from Kilometers to Miles")
 
-    KM = eval(input("Enter Fahrenheit to convert: "))
+    KM = eval(input("Enter Kilometers to convert: "))
 
     M = KM * 0.621371
 

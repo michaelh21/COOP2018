@@ -7,11 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: 
+# Exercise: 6
 # Soource: Python Programming
-# Chapter: 
+# Chapter: 2
 #
 # Program Description
+# Calculates future value of a user input year investment
 
 def main():
         print("This program calculates the future value")

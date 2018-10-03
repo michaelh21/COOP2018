@@ -7,11 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: 
+# Exercise: 3
 # Soource: Python Programming
-# Chapter: 
+# Chapter: 2
 #
 # Program Description
+# Average 3 test scores from user input
 
 x = eval(input("Enter test score 1: "))
 

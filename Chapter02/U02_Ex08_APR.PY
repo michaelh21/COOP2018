@@ -7,11 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: 
+# Exercise: 8
 # Soource: Python Programming
-# Chapter: 
+# Chapter: 2
 #
 # Program Description
+# Compounds the rate of an investment per year
 
 def main():
     print("This program calculates the future value")

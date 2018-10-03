@@ -7,11 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: Determine the distance between two points
+# Exercise: 7
 # Soource: Python Programming
 # Chapter: 3
 #
 # Program Description
+# Determine the distance between two points
 
 def main():
     print("This program calculates the slope of a line")

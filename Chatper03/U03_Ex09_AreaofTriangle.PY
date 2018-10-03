@@ -7,13 +7,14 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: 
+# Exercise: 9
 # Soource: Python Programming
 # Chapter: 
 #
 # Program Description
+# Find the area of a triangle only using its sides
 def main():
-    print("This program calculates the are of a triangle using its sides")
+    print("This program calculates the area of a triangle using its sides")
     a = eval(input("Enter side one: "))
     b = eval(input("Enter side two: "))
     c = eval(input("Enter side three: "))

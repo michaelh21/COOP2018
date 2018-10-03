@@ -7,11 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: Calculate the slop of a line
+# Exercise: 6
 # Soource: Python Programming
 # Chapter: 3
 #
 # Program Description
+# Calculate the slop of a line
 
 def main():
     print("This program calculates the slope of a line")

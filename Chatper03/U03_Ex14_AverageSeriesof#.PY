@@ -7,12 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: Average a series of numbers
+# Exercise: 14
 # Soource: Python Programming
 # Chapter: 3
 #
 # Program Description
-
+# Average a series of numbers
 def main():
     print("This program calculates the average of a user selected amount of numbers")
     x = eval(input("Enter how many numbers you need to average: "))

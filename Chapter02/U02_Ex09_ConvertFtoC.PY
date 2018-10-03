@@ -7,11 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: 
+# Exercise: 9
 # Soource: Python Programming
-# Chapter: 
+# Chapter: 2
 #
 # Program Description
+# Converts Fahrenheit into Celsius
 
 def Fahr():
     print("This program converts temperature from Fahrenheit to Celsius")

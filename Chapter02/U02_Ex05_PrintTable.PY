@@ -7,11 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: 
+# Exercise: 5
 # Soource: Python Programming
-# Chapter: 
+# Chapter: 2
 #
 # Program Description
+# Print a table of conversions from Celsius into Fahrenheit
 
 def KMM():
     print("This program makes a table for every 10 degrees C into F")

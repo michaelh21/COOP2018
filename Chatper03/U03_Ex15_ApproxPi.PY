@@ -7,11 +7,12 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: Approximate pi
+# Exercise: 15
 # Soource: Python Programming
 # Chapter: 3
 #
 # Program Description
+# Approximate pi
 
 import math
 def main():
