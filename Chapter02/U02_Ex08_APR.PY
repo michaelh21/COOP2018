@@ -22,7 +22,7 @@ def main():
     periods = eval(input("Enter the compounds per year: "))
 
     for i in range(10):
-        principal = principal * ((rate*100)/periods)
+        principal = principal * ((rate)/periods)
 
     print("The value in 10 years is:", principal)
 
