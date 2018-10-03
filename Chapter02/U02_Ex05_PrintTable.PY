@@ -13,10 +13,15 @@
 #
 # Program Description
 # Print a table of conversions from Celsius into Fahrenheit
+#
+# Algorithm (pseudocode)
+# Print Introduction
+# Print table
 
-def KMM():
+def main():
+    # Print Introduction
     print("This program makes a table for every 10 degrees C into F")
-
+    # Print table
     print("0C = 32F")
     print("10C = 50F")
     print("20C = 68F")
@@ -30,4 +35,4 @@ def KMM():
     print("100C = 212F")
 
 
-KMM()
+main()

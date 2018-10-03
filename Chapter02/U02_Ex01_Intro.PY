@@ -13,8 +13,12 @@
 #
 # Program Description
 # Print an introduction
+#
+# Algorithm (pseudocode)
+# Print Introduction
 
 def main():
+    # Print Introduction
     print("This program converts temperature from Celsius to Fahrenheit")
 
     celsius = eval(input("Enter C to convert: "))

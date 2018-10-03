@@ -13,14 +13,23 @@
 #
 # Program Description
 # Converts Fahrenheit into Celsius
+#
+# Algorithm (pseudocode)
+# Print Introduction
+# Get input
+# Convert C to F
+# Print conversion
 
 def Fahr():
+    # Print Introduction
     print("This program converts temperature from Fahrenheit to Celsius")
 
+    # Get input
     F = eval(input("Enter Fahrenheit to convert: "))
 
+    # Convert C to F
     C = ((F - 32) / 5) * 9
 
+    # Print conversion
     print(F, "Fahrenheit is equivalent to", C, "Celsius")
-
 Fahr()

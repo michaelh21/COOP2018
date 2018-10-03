@@ -13,14 +13,24 @@
 #
 # Program Description
 # Convert Kilometers into miles
+#
+# Algorithm (pseudocode)
+# Print Introduction
+# Get input
+# Convert
+# Print conversion
 
-def KMM():
+def main():
+    # Print Introduction
     print("This program converts distance from Kilometers to Miles")
 
+    # Get input
     KM = eval(input("Enter Kilometers to convert: "))
 
+    # Convert
     M = KM * 0.621371
 
+    # Print conversion
     print(KM, "KM is equivalent to", M, "Miles")
 
-KMM()
+main()

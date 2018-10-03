@@ -13,11 +13,23 @@
 #
 # Program Description
 # Average 3 test scores from user input
+#
+# Algorithm (pseudocode)
+# Print Introduction
+# Get input
+# Average inputs
+# Print average
 
-x = eval(input("Enter test score 1: "))
+def main():
+    # Print Introduction
+    print("This program averages 3 test scores")
+    # Get input
+    x = eval(input("Enter test score 1: "))
 
-y = eval(input("Enter test score 2: "))
+    y = eval(input("Enter test score 2: "))
 
-z = eval(input("Enter test score 3: "))
-
-print((x+y+z)/3)
+    z = eval(input("Enter test score 3: "))
+    # Average inputs
+    # Print average
+    print((x+y+z)/3)
+main()
