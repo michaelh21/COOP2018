@@ -13,14 +13,26 @@
 #
 # Program Description
 # Determine the distance between two points
+#
+# Algorithm (pseudocode)
+# Print Introduction
+# Get inputs points
+# Calculate the distance from the points
+# Print the slope
 
 def main():
+    # Print Introduction
     print("This program calculates the slope of a line")
+
+    # Get inputs points
     x1 = eval(input("Enter x1: "))
     y1 = eval(input("Enter y1: "))
     x2 = eval(input("Enter x2: "))
     y2 = eval(input("Enter y2: "))
 
+    # Calculate the distance from the points
     dist = (((x2-x1) ** 2) + ((y2-y1) ** 2)) ** 0.5
+
+    # Print the slope
     print("Your distance is ", dist)
 main()
