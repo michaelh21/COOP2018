@@ -12,7 +12,7 @@
 # Chapter: 3
 #
 # Program Description
-# Determine the distance between two points
+# Determine the distance between two user input points on a graph
 #
 # Algorithm (pseudocode)
 # Print Introduction
@@ -22,7 +22,7 @@
 
 def main():
     # Print Introduction
-    print("This program calculates the slope of a line")
+    print("This program calculates the distance between two points")
 
     # Get inputs points
     x1 = eval(input("Enter x1: "))
@@ -34,5 +34,5 @@ def main():
     dist = (((x2-x1) ** 2) + ((y2-y1) ** 2)) ** 0.5
 
     # Print the slope
-    print("Your distance is ", dist)
+    print("Your distance from", x1, ",", y1, "to", x2, ",", y2, "is", dist)
 main()

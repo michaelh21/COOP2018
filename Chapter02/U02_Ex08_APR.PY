@@ -17,7 +17,7 @@
 # Algorithm (pseudocode)
 # Print Introduction
 # Get input
-# Calculate compounds
+# Calculate compounds using formula given
 # Print calculations
 
 def main():
@@ -30,7 +30,7 @@ def main():
     rate = eval(input("Enter the investment rate: "))
     periods = eval(input("Enter the compounds per year: "))
 
-    # Calculate compounds
+    # Calculate compounds using formula given
     for i in range(10):
         principal = principal * ((rate)/periods)
 

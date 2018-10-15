@@ -22,15 +22,15 @@
 
 def main():
     # Print Introduction
-    print("This program calculates the volume and surface area of a sphere from its radius")
+    print("This program calculates volume and surface area of a sphere")
 
     # Get input
     radius = eval(input("Enter the radius: "))
 
     # Calculate the volume and surface area
-    x = radius*radius*radius*(4/3)*3.14
-    y = radius*radius*3.14*4
+    volume = radius*radius*radius*(4/3)*3.14
+    surface = radius*radius*3.14*4
 
     # Print both
-    print("The volume is", x, "and the surface area is:", y)
+    print("Using the given radius:", radius, ",the volume of the sphere is", volume, "and the surface area is:", surface)
 main()

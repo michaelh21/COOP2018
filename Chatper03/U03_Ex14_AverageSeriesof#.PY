@@ -17,20 +17,22 @@
 # Algorithm (pseudocode)
 # Print Introduction
 # Get input for #s to average
-# Calculate the average
-# Print the average
+# Use that number in a loop
+# Gather input inside the loop, adding the numbers onto itself
+# Print the sum over the amount of numbers used
 def main():
     # Print Introduction
     print("This program calculates the average of a user selected amount of numbers")
 
     # Get input for #s to average
-    x = eval(input("Enter how many numbers you need to average: "))
-    z = 0
+    numbers = eval(input("Enter how many numbers you need to average: "))
+    sum = 0
 
-    # Calculate the average
-    for i in range(x):
-       z += eval(input("Enter number(s): "))
+    # Use that number in a loop
+    for i in range(numbers):
+        # Gather input inside the loop, adding the numbers onto itself
+       sum += eval(input("Enter number(s): "))
 
-    # Print the average
-    print("The average is ", z/x)
+    # Print the sum over the amount of numbers used
+    print("The average is ", sum/numbers)
 main()

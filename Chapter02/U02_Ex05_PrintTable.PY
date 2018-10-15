@@ -16,23 +16,21 @@
 #
 # Algorithm (pseudocode)
 # Print Introduction
-# Print table
+# Declare variable for C
+# Create loop for 10 times
+# Print C, then the conversion
+# Add 10 to C
 
 def main():
     # Print Introduction
     print("This program makes a table for every 10 degrees C into F")
-    # Print table
-    print("0C = 32F")
-    print("10C = 50F")
-    print("20C = 68F")
-    print("30C = 86F")
-    print("40C = 104F")
-    print("50C = 122F")
-    print("60C = 140F")
-    print("70C = 158F")
-    print("80C = 176F")
-    print("90C = 194F")
-    print("100C = 212F")
-
-
+    # Declare variable for C
+    x = 0
+    # Create loop for 10 times
+    print ("C", "|", "F")
+    for i in range(10):
+        # Print C, then the conversion
+        print(x, "|", (9/5)*x+32)
+        # Add 10 to C
+        x = x + 10
 main()

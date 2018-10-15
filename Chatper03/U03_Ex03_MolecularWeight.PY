@@ -14,25 +14,26 @@
 #
 # Program Description
 # Write a program that computes the molecular weight of a carbohydrate based on
+# the amount of hydrogen, carbon, and oxegen, all given by the user
 #
 # Algorithm (pseudocode)
 # Print Introduction
 # Get inputs
-# Calculate the weight of the molecules
+# Calculate the weight of the molecules using the given formula
 # Print the weight
 
 def main():
     # Print Introduction
-    print("This program computers the emolecular weight of a carbohydrate")
+    print("This program computers the molecular weight of a carbohydrate")
 
     # Get inputs
     hydrogen = eval(input("Enter the amount of hydrogen atoms: "))
     carbon = eval(input("Enter the amount of carbon atoms: "))
     oxygen = eval(input("Enter the amount of oxygen atoms: "))
 
-    # Calculate the weight of the molecules
+    # Calculate the weight of the molecules using the given formula
     weight = hydrogen*1.00794+carbon*12.0107+oxygen*15.9994
 
     # Print the weight
-    print("The molecular weight of a carbohydrate using your input is ", weight)
+    print("The molecular weight of a carbohydrate using your input,", "H:", hydrogen, "C:", carbon, "O:", oxygen, "is", weight)
 main()

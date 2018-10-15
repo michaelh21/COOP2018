@@ -31,5 +31,5 @@ def main():
     z = eval(input("Enter test score 3: "))
     # Average inputs
     # Print average
-    print((x+y+z)/3)
+    print("The average of those 3 test scores are", (x+y+z)/3)
 main()
