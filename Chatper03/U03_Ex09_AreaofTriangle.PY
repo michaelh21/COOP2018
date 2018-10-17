@@ -16,24 +16,33 @@
 #
 # Algorithm (pseudocode)
 # Print Introduction
-# Get input for sides
-# Calculate the area
+# Get three input for the sides of the triangle
+# Make sure each side has it's own variable
+# Add every side up and dividing the sum by 2
+# Calculate the area using the previous number in the given formula:
+# A = math.sqrt(s(s-a)(s-b)(s-c))
+# Where a, b, and c represent the sides of the triangle
 # Print the area
 
+import math
 def main():
     # Print Introduction
     print("This program calculates the area of a triangle using its sides")
 
-    # Get input for sides
-    a = eval(input("Enter side one: "))
-    b = eval(input("Enter side two: "))
-    c = eval(input("Enter side three: "))
+    # Get three input for the sides of the triangle
+    # Make sure each side has it's own variable
+    side1 = eval(input("Enter side one: "))
+    side2 = eval(input("Enter side two: "))
+    side3 = eval(input("Enter side three: "))
 
-    # Calculate the area
-    s = (a+b+c)/2
-    x = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+    # Add every side up and dividing the sum by 2
+    s = (side1+side2+side3)/2
+
+    # Calculate the area using the previous number in the given formula:
+    # A = math.sqrt(s(s-a)(s-b)(s-c))
+    # Where a, b, and c represent the sides of the triangle
+    area = math.sqrt(s*(s-side1)*(s-side2)*(s-side3))
 
     # Print the area
-    print("The triangle's area is ", x)
-
+    print("The triangle's area with sides", side1, side2, "and", side3, "is", area)
 main()

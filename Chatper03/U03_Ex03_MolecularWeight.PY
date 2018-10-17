@@ -18,20 +18,22 @@
 #
 # Algorithm (pseudocode)
 # Print Introduction
-# Get inputs
-# Calculate the weight of the molecules using the given formula
+# Get three inputs for the three elements: hydrogen; carbon; oxygen
+# Calculate the weight of the molecules by multiplying each element with a certain number
+# Add all of it together
 # Print the weight
 
 def main():
     # Print Introduction
     print("This program computers the molecular weight of a carbohydrate")
 
-    # Get inputs
+    # Get three inputs for the three elements: hydrogen; carbon; oxygen
     hydrogen = eval(input("Enter the amount of hydrogen atoms: "))
     carbon = eval(input("Enter the amount of carbon atoms: "))
     oxygen = eval(input("Enter the amount of oxygen atoms: "))
 
-    # Calculate the weight of the molecules using the given formula
+    # Calculate the weight of the molecules by multiplying each element with a certain number
+    # Add all of it together
     weight = hydrogen*1.00794+carbon*12.0107+oxygen*15.9994
 
     # Print the weight

@@ -16,8 +16,9 @@
 #
 # Algorithm (pseudocode)
 # Print Introduction
-# Get input
-# Calculate compounds using formula given
+# Get input for initial investment, rate, and periods.
+# Loop program 10 * periods
+# Calculate compounds using principal multiplied by the rate divided by the amount of periods
 # Print calculations
 
 def main():
@@ -25,14 +26,15 @@ def main():
     print("This program calculates the future value")
     print("of a 10-year investment")
 
-    # Get input
+    # Get input for initial investment, rate, and periods.
     principal = eval(input("Enter the initial principal: "))
     rate = eval(input("Enter the investment rate: "))
     periods = eval(input("Enter the compounds per year: "))
 
-    # Calculate compounds using formula given
-    for i in range(10):
-        principal = principal * ((rate)/periods)
+    # Loop program 10 * periods
+    for i in range(10*periods):
+        # Calculate compounds using principal multiplied by the rate divided by the amount of periods
+        principal = principal * (rate/periods)
 
     # Print calculations
     print("The value in 10 years is:", principal)
