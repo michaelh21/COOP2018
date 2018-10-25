@@ -20,10 +20,13 @@
 # Get input for the amount of terms to use and loop
 # Declare pi variable
 # Create for loop to bounce between positives and negatives
+# The range of the loop is from 1 to the amount of terms plus one to support the starting point
 # This is done by using the remainder (%) of a term/2 division equation and adding one through each loop
 # Calculate the equation for pi using a formula, where switch changes the negativity of the statement
 # and 4/2*i-1, i being the number of times the for loop has looped.
-# Print the calculation minus the actual amount
+# The equation is being added onto one variable
+# Print the calculation minus the actual amount inside an absolute value statement
+# Along with the user's approximation
 
 # Import math
 import math
@@ -40,6 +43,7 @@ def main():
     pi = 0
 
     # Create for loop to bounce between positives and negatives
+    # The range of the loop is from 1 to the amount of terms plus one to support the starting point
     # This is done by using the remainder (%) of a term/2 division equation and adding one through each loop
     for i in range (1, terms+1):
         if i % 2 == 0:
@@ -49,9 +53,11 @@ def main():
 
         # Calculate the equation for pi using a formula, where switch changes the negativity of the statement
         # and 4/2*i-1, i being the number of times the for loop has looped.
+        # The equation is being added onto one variable
         pi += switch*(4/(2*i-1))
 
-    # Print the calculation
+        # Print the calculation minus the actual amount inside an absolute value statement
+        # Along with the user's approximation
     print("The approximation", pi, "was off by", abs(pi-math.pi)), "in relation to actual pi."
 
 

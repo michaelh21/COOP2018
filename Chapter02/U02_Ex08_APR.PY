@@ -19,6 +19,7 @@
 # Get input for initial investment, rate, and periods.
 # Loop program 10 * periods
 # Calculate compounds using principal multiplied by the rate divided by the amount of periods
+# with 12/periods so that the compounds divide into the year
 # Print calculations
 
 def main():
@@ -28,13 +29,14 @@ def main():
 
     # Get input for initial investment, rate, and periods.
     principal = eval(input("Enter the initial principal: "))
-    rate = eval(input("Enter the investment rate: "))
+    rate = eval(input("Enter the investment rate percentage: "))
     periods = eval(input("Enter the compounds per year: "))
 
     # Loop program 10 * periods
     for i in range(10*periods):
         # Calculate compounds using principal multiplied by the rate divided by the amount of periods
-        principal = principal * (rate/periods)
+        # with the value adding onto itself
+        principal = principal + principal * ((rate/100)/periods)
 
     # Print calculations
     print("The value in 10 years is:", principal)
