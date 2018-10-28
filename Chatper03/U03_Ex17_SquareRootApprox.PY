@@ -18,33 +18,33 @@
 # Print Introduction
 # Get input for number we want to root
 # Get input for loop repetitions
-# Root original for exact
-# Divide original by 2
-# Use repetitions inside for loop
+# Root original for the exact answer
+# Divide the number the user wanted to root by 2
+# Use user input repetitions inside for loop and substitute his variables with mine
 # Input Newton's method
-# Print answer and how far away the answer is
+# Print answer and how far away the answer is from the exact answer
 
 def main():
     # Print Introduction
     print("This program allows the user to compute a square root using the Newton's method a user input amount of times")
 
     # Get input for number we want to root
-    x = eval(input("Enter the number you wish to root: "))
+    broot = eval(input("Enter the number you wish to root: "))
 
     # Get input for loop repetitions
-    y = eval(input("Enter how many times you wish to use the Newton's method: "))
+    loop = eval(input("Enter how many times you wish to use the Newton's method: "))
 
     # Root original for exact
-    x1 = x ** 0.5
+    root = broot ** 0.5
 
-    # Divide original by 2
-    y2 = x/2
+    # Divide the number the user wanted to root by 2
+    root2 = broot/2
 
-    # Use repetitions inside for loop
-    for i in range(y):
+    # Use user input repetitions inside for loop and substitute his variables with mine
+    for i in range(loop):
         # Input Newton's method
-        y2 = (y2 + x/y2)/2
+        root2 = (root2 + broot/root2)/2
 
-    # Print answer and how far away the answer is
-    print("The 'guess'",y2, "is", abs(x1-y2), "away from the answer:", x1)
+    # Print answer and how far away the answer is from the exact answer
+    print("The 'guess'", root2, "is", abs(root-root2), "away from the answer:", root)
 main()

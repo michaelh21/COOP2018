@@ -12,30 +12,32 @@
 # Chapter: 3
 #
 # Program Description
-# Calculate the sum of natural numbers based off user input for the amount
+# Calculate the sum of natural numbers that are cubed based off user input for the amount of numbers
 #
 # Algorithm (pseudocode)
 # Print Introduction
 # Get input for n
-# Calculate the sum with the numbers ** 2
+# Declare a sum variable to be 0
+# Create a loop that loops n times
+# Add the loop (i) number ** 3 to the sum each loop
 # Print the sum
 
 def main():
     # Print Introduction
-    print("This program calculates the sum of natural numbers with the limit being user input")
+    print("This program calculates the sum of natural numbers cubed with the limit being user input")
 
     # Get input for n
-    n = eval(input("Enter the amount you wish to sum: "))
+    n = eval(input("Enter the amount of cubed numbers you wish to sum: "))
 
-    # Calculate the sum with the numbers ** 2
-    x = 0
-    y = 0
+    # Declare a sum variable to be 0
+    sum = 0
+    # Create a loop that loops n times
     for i in range(n):
-        x = x + 1
-        y = y + x ** 2
+        # Add the loop (i) number ** 3 to the sum each loop
+        sum = sum + i ** 3
 
     # Print the sum
-    print(y)
+    print("The sum of the first", n, "natural numbers cubed is", sum)
 
 
 main()
