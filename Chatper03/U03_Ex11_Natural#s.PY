@@ -36,7 +36,7 @@ def main():
     # Create a for-loop that loops n times
     for i in range(n):
         # Have the variable add onto itself with the amount of times the loop loops (i)
-        sum = sum + i
+        sum = sum + (i+1)
 
     # Print the sum
     print("The sum of", n, "natural numbers is", sum)

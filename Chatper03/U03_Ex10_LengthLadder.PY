@@ -16,23 +16,26 @@
 #
 # Algorithm (pseudocode)
 # Print Introduction
-# Get inputs
-# Calculate the length needed by dividing height by the angle
-# Print the length along with te height and the angle given
+# Get inputs for both the height and the angle
+# Convert the angle into radians using the formula (pi/180)angle
+# Calculate the length needed by dividing height by the radians
+# Print the length along with the height and the angle given
 
-
+import math
 def main():
     # Print Introduction
     print("This program calculates the length of a ladder required to reach a given height")
 
-    # Get inputs
+    # Get inputs for both the height and the angle
     height = eval(input("Enter the height: "))
-    angle = eval(input("Enter the angle: "))
+    angle = eval(input("Enter the angle (in degrees): "))
 
-    # Calculate the length needed by dividing height by the angle
-    length = height/angle
+    # Convert the angle into radians using the formula (pi/180)angle
+    radians = (math.pi/180)*angle
 
-    # Print the length
+    # Calculate the length needed by dividing height by the radians
+    length = height/radians
+
+    # Print the length along with the height and the angle given
     print("The length from the height", height, "and the angle", angle, "needs to be ", length)
 main()
-

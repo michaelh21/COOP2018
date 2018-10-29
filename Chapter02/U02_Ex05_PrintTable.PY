@@ -21,6 +21,7 @@
 # Print C, then the conversion
 # Add 10 to C
 
+
 def main():
     # Print Introduction
     print("This program makes a table for every 10 degrees C into F")
@@ -28,7 +29,7 @@ def main():
     x = 0
     # Create loop for 10 times
     print ("C", "|", "F")
-    for i in range(10):
+    for i in range(11):
         # Print C, then the conversion
         print(x, "|", (9/5)*x+32)
         # Add 10 to C

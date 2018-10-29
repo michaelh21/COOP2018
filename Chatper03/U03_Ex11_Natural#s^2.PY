@@ -34,7 +34,7 @@ def main():
     # Create a loop that loops n times
     for i in range(n):
         # Add the loop (i) number ** 3 to the sum each loop
-        sum = sum + i ** 3
+        sum = sum + ((i+1) ** 3)
 
     # Print the sum
     print("The sum of the first", n, "natural numbers cubed is", sum)
