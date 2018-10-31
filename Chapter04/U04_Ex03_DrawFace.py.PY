@@ -7,9 +7,9 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: 
+# Exercise: 03
 # Soource: Python Programming
-# Chapter: 
+# Chapter: 4
 #
 # Program Description
 # Draws a face
