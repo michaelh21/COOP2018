@@ -35,7 +35,7 @@ def main():
     win.close()
 
 def drawHead(win):
-    makeCircle(Point(400, 400), 350, "yellow").draw(win)
+    makeCircle(Point(400, 400), 350, "white").draw(win)
 
 
 def drawEyes(win):
