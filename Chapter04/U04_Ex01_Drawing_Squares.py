@@ -12,8 +12,8 @@
 # Chapter: 4
 #
 # Program Description
-# Replace the draw circle program with squares and have each new position be a new square
-# and print a message at the end of the loop to close to program with the next click
+# The program will replace the circles program with squares, and instead of moving the shape, it draws new ones.
+# It also prints a message at the end of the loop to close to program with the next click
 #
 # Algorithm(pseudocode)
 # Import Graphics

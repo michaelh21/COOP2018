@@ -12,7 +12,7 @@
 # Chapter: 4
 #
 # Program Description
-# Draws a face
+# Draws some sort of face
 #
 # Algorithm(pseudocode)
 # import graphics.py
@@ -45,7 +45,7 @@ def drawHead(win):
 
 def drawEyes(win):
     """
-    Draw two black dots around the top portion of the face with a smaller radius, about 50
+    Draw two black dots around the top portion of the face with a smaller radius
     These dots should have the same y position
     :param win:
     :return:
