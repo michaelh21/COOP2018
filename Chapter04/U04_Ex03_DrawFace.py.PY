@@ -12,7 +12,7 @@
 # Chapter: 4
 #
 # Program Description
-# Draws some sort of face
+# The program will draw some sort of face. For me, I will draw a head, a nose, a mouth, and eyes.
 #
 # Algorithm(pseudocode)
 # import graphics.py
