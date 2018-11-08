@@ -7,9 +7,9 @@
 # IDE: PyCharm
 #
 # Assignment Info
-# Exercise: 
+# Exercise: 08
 # Soource: Python Programming
-# Chapter: 
+# Chapter: 04
 #
 # Program Description
 # The user is allowed to draw a line segment, and then the program displays information about the line segment.

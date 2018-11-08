@@ -12,7 +12,8 @@
 # Chapter: 04
 #
 # Program Description
-# The program will refactor the APR program so that the input is graphical through entry points.
+# The program will refactor the APR program so that the input is graphical through entry points. The output is also
+# in the same graphical window, and will display somewhere else on the screen as soon as the user clicks "calculate."
 #
 # Algorithm(pseudocode)
 # Copy the convert_gui.pyw program over
@@ -21,6 +22,7 @@
 # I'll replace the names of every variable to make it more relevant to the program
 # I'll duplicate the input code over to the variables principal and APR
 # Copy the future value equation over with the for loop that runs for 10 times
+# The bottom text will display the end result of the for loop
 
 from graphics import *
 
