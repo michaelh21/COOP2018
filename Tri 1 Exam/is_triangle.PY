@@ -33,27 +33,29 @@ main:
 
 """
 
-def main():
-    a = eval(input("What is side 1?"))
-    b = eval(input("What is side 2?"))
-    c = eval(input("What is side 3?"))
+if __name__ == '__main__':
 
-    flag1 = is_triangle(a, b, c)
-    if flag1:
-        print("The three sides", a, b, "and", c, "can make a triangle!")
-    else:
-        print("The three sides", a, b, "and", c, "cannot make a triangle!")
+    def main():
+        a = eval(input("What is side 1?"))
+        b = eval(input("What is side 2?"))
+        c = eval(input("What is side 3?"))
 
-
-def is_triangle(a, b, c):
-    # return = [a, b, c]
-    if(a + b > c and
-        a + c > b and
-       b + c > a):
-        return True
-    else:
-        return False
+        flag1 = is_triangle(a, b, c)
+        if flag1:
+            print("The three sides", a, b, "and", c, "can make a triangle!")
+        else:
+            print("The three sides", a, b, "and", c, "cannot make a triangle!")
 
 
+    def is_triangle(a, b, c):
+        # return = [a, b, c]
+        if(a + b > c and
+            a + c > b and
+           b + c > a):
+            return True
+        else:
+            return False
 
-main()
+
+
+    main()
