@@ -1,0 +1,10 @@
+<application>
+  <component name="MaterialThemeConfig">
+    <option name="allowDataCollection" value="true" />
+    <option name="isWizardShown" value="true" />
+    <option name="tabsHeight" value="30" />
+    <option name="selectedTheme" value="DARKER" />
+    <option name="userId" value="-745e2e6d:16779fea859:-8000" />
+    <option name="version" value="3.0.0-rc4" />
+  </component>
+</application>
