@@ -49,7 +49,7 @@ def main():
         letters1 = letters[charNum]
         fill += letters1
 
-    print("fill:", fill)
+    print("Your phrase '{0}' can be encoded to '{1}' by moving {2} letters over.".format(word, fill, key))
 
 
 main()
