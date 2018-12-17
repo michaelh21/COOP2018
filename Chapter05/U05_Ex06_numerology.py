@@ -27,7 +27,7 @@
 
 def main():
     name = input("Enter a name: ")
-    name.lower()
+    name = name.lower()
     total = 0
 
     letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u",
