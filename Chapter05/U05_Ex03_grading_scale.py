@@ -21,7 +21,7 @@
 # Under each if statement, add one to a variable. The variable will be used to determine the letter.
 # After the if statements, create a list of letter grades starting with f
 # The next line will consist of an output variable that grabs the first variable
-# used and multiplies with the list variable
+    # used and multiplies with the list variable
 # Use string format to output
 
 def main():
@@ -29,13 +29,13 @@ def main():
     grade = 0
     n = ""
 
-    if exam > 60:
+    if exam > 59:
         grade = grade + 1
-    if exam > 70:
+    if exam > 69:
         grade = grade + 1
-    if exam > 80:
+    if exam > 79:
         grade = grade + 1
-    if exam > 90:
+    if exam > 89:
         grade = grade + 1
         n = "n"
 
