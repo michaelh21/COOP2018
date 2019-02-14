@@ -24,19 +24,22 @@
     # and implement them as string variables to insert from formatted printing
 
 def main():
-
     animals = ["cow", "pig", "dog", "horse", "cat"]
     sound = ["moo", "oink", "bark", "neigh", "meow"]
 
     for i in range(5):
         animal = animals[i]
         sounds = sound[i]
-        print("Old MacDonald had a farm, Ee-igh, Ee-igh, Oh!")
+        old()
         print("And on that farm he had a {0}, Ei-igh, Ee-igh, Oh!".format(animal))
         print("With a {0}, {0} here and a {0}, {0} there.".format(sounds))
         print("Here a {0}, there a {0}, everywhere a {0}, {0}.".format(sounds))
-        print("Old MacDonald had a farm, Ee-igh, Ee-igh, Oh!")
+        old()
         print("\n")
+
+def old():
+    print("Old MacDonald had a farm, Ee-igh, Ee-igh, Oh!")
+
 
 main()
 
