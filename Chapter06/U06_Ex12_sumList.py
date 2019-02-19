@@ -1,25 +1,25 @@
-# U06_Ex11_squareEach(nums).py.py
+# U06_Ex12_sumList.py.py
 # 
 # Author: Michael Hu
 # Course: Coding for OOP
 # Section: A3
-# Date: 14 Feb 2019
+# Date: 19 Feb 2019
 # IDE: #{PRODUCT_NAME}
 # 
 # Assignement Info
-#   Exercise: 11
+#   Exercise: 12
 #   Source: Python Programming 
 #   Chapter: 06
 #
 # Program Description
-# This program squares a number list based on user input.
+# This program takes a list of numbers and outputs the sum of the numbers in the list
 #
 #
 # Algorithm (pseudocode)
-# Make a list of numbers to square
-# Make functions input, main and squareEach
-# Pull from the list made by the user in the input function and use it in the squareEach function
-# In the main function, I will pull the returns from all previous functions and formally print them.
+# Copy paste 6.11
+# Change the square function to add all the numbers in the list together.
+# Return the total so that the main function can print it.
+# Change the print line to be more appropriate to the program.
 
 def input1():
     """
@@ -36,25 +36,25 @@ def input1():
 
 def squareEach(nums):
     """
-    Pull the list from input function
-    Loop the amount of numbers in the list to square them and add them to another list
-    Return the changed list
+    Create a 0 variable to add unto
+    The loop loops the amount of numbers inside the list
+    The loop adds each number in the list onto the 0 variable
     :return:
     """
-    total = list()
+    total = 0
     for i in range(len(nums)):
         nums1 = nums[i]
-        nums1 = nums1*nums1
-        total.append(nums1)
+        total = total+nums1
     return total
 
 def main():
     """
-    Pull the lists from both previous functions
+    Pull the list and total from previous functions
     Output them with a print statement
     :return:
     """
     nums = input1()
-    print("The list {0} squared is {1}.".format(nums, squareEach(nums)))
+    total = squareEach(nums)
+    print("The list's sum {0} is {1}.".format(nums, total))
 
 main()
