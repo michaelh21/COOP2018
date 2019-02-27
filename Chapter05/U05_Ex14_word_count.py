@@ -19,9 +19,9 @@
 # Get input of the file name
 # Open the file to a variable and read the file
 # Create a loop that reads each line of the file
-    # Create a loop that reads each word in each line
-    # Create a loop that counts each character in each line; upper or lowercase is taken care of from lists.
-        # Copy the 5.10 loop code for the counts of letters
+#   Create a loop that reads each word in each line
+#   Create a loop that counts each character in each line; upper or lowercase is taken care of from lists.
+#       Copy the 5.10 loop code for the counts of letters
 # Create variables for the results to pour into
 # Detect both upper and lower case
 
