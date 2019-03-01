@@ -27,4 +27,6 @@ import math
 
 def main():
     win = GraphWin("Bounce", 400, 400)
+
+    makeCircle(5,5)
 main()
