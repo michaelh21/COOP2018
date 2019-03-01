@@ -21,4 +21,6 @@
 # Make the ball move in one direction until hitting the edge
 # When hitting the edge, reverse its x or y depending on the direction its going and which wall it hits
 
+def main():
 
+main()
